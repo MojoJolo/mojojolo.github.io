@@ -1,23 +1,122 @@
----
-layout: default
-title: Jolo Balbin
----
-<h3>About Me</h3>
-<p>I'm <strong>Jolo Balbin</strong>, a software and AI engineer who enjoys turning ideas into real, working products.</p>
-<p>Currently, I help lead a team at <a href="https://www.coda.co/">Coda</a> working on improving global payments.</p>
-<p>Previously Staff Software Engineer at <a href="https://www.agoda.com/">Agoda</a> and CTO of <a href="https://www.indigoresearch.xyz/">Indigo Research</a>.</p>
-<p>I created <a href="https://github.com/IndigoResearch/textteaser">TextTeaser</a>, an open-source automatic text summarization algorithm developed for my thesis, built before the rise of modern LLMs.</p>
-<p>Outside of software, I do wall climbing and bouldering, join various sports activies, listening to audiobooks and living the life with people.</p>
-<p></p>
-<h3>Posts</h3>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> | {{ post.date | date: "%B %-d, %Y" }}</li>
-  {% endfor %}
-</ul>
-<h3>Research</h3>
-<ul class="posts">
-    <li>
-        <a href="https://www.scitepress.org/PublicationsDetail.aspx?ID=KeuR92PPva4=&t=1">Constructing a Word Similarity Graph from Vector based Word Representation for Named Entity Recognition</a>, Feria M., <strong>Balbin J.</strong> and Bautista F. (2018) [<a href="https://arxiv.org/abs/1807.03012">arXiv</a>]
-    </li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jolo Balbin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 18px;
+    }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      color: #111;
+      background: #fff;
+      line-height: 1.75;
+      padding: 4rem 2rem 6rem 2rem;
+    }
+
+    .content {
+      max-width: 640px;
+    }
+
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 3.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .offer-title {
+      font-weight: 600;
+    }
+
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    @media (max-width: 480px) {
+      html {
+        font-size: 17px;
+      }
+
+      body {
+        padding: 2.5rem 1.25rem 4rem 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+
+    <h1>Jolo Balbin</h1>
+    <p class="subtitle">Fractional CTO and tech consultant. 10+ years across fintech, e-commerce, and AI.</p>
+
+    <section>
+      <h2>What I Do</h2>
+      <p>I help early-stage teams and founders make sound technical decisions, build working software, and establish engineering foundations that scale. I've worked across fintech, e-commerce, and AI research, from individual contributor to leading teams.</p>
+    </section>
+
+    <section>
+      <h2>What I Offer</h2>
+      <p><span class="offer-title">Fractional CTO.</span> I work with your team on an ongoing basis. Technical strategy, hiring, architecture, engineering culture.</p>
+      <p><span class="offer-title">Startup Consulting.</span> You have an idea or an early product. I help you make the right technical decisions before they become expensive mistakes.</p>
+      <p><span class="offer-title">Tech Advisory.</span> Occasional calls, code reviews, architecture reviews. Good if you already have a team but need a second opinion.</p>
+    </section>
+
+    <section>
+      <h2>Get in Touch</h2>
+      <div class="contact-links">
+        <a href="mailto:hello@jolo.xyz">hello@jolo.xyz</a>
+        <a href="https://linkedin.com/in/jpbalbin" target="_blank" rel="noopener">linkedin.com/in/jpbalbin</a>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
