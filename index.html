@@ -3,131 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jolo Balbin — Fractional CTO and tech consultant.">
   <title>Jolo Balbin</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+
+  <style type="text/css">
+    body {
+      padding: 10px;
+      font-family: 'Noto Serif SC', serif;
+    }
+
+    .side, .content {
+      padding: 20px;
+    }
+
+    .side {
+      background-color: #555;
+      color: white;
+    }
+
+    .side ul {
+      list-style-type: none;
       padding: 0;
     }
 
-    html {
-      font-size: 18px;
-    }
-
-    body {
-      font-family: 'Lora', Georgia, serif;
-      color: #1a1a1a;
-      background: #f9f7f4;
-      line-height: 1.75;
-      padding: 4rem 2rem 6rem 2rem;
+    .side a {
+      color: white;
     }
 
     .content {
-      max-width: 640px;
+      padding-left: 20px;
+      text-align: justify;
+      text-justify: inter-word;
     }
 
-    h1 {
-      font-size: 1.35rem;
-      font-weight: 600;
-      letter-spacing: 0.01em;
-      margin-bottom: 0.3rem;
+    .content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
     }
 
-    .subtitle {
-      font-size: 1rem;
-      color: #555;
-      padding-bottom: 3rem;
-      margin-bottom: 3rem;
-      border-bottom: 1px solid #ddd8d0;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-
-    h2 {
-      font-size: 0.78rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: #b07d50;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      color: #2a2a2a;
-    }
-
-    p:last-child {
-      margin-bottom: 0;
+    .content h3:first-child {
+      margin-top: 0;
     }
 
     .offer-title {
-      font-weight: 600;
-      color: #1a1a1a;
-    }
-
-    a {
-      color: #1a1a1a;
-      text-decoration: none;
-      border-bottom: 1px solid #ddd8d0;
-      transition: border-color 0.15s, color 0.15s;
-    }
-
-    a:hover {
-      color: #b07d50;
-      border-bottom-color: #b07d50;
-    }
-
-    .contact-links {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    @media (max-width: 480px) {
-      html {
-        font-size: 17px;
-      }
-
-      body {
-        padding: 2.5rem 1.25rem 4rem 1.25rem;
-      }
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <div class="content">
-
-    <h1>Jolo Balbin</h1>
-    <p class="subtitle">Fractional CTO and tech consultant. 10+ years across fintech, e-commerce, and AI.</p>
-
-    <section>
-      <h2>What I Do</h2>
-      <p>I help early-stage teams and founders make sound technical decisions, build working software, and establish engineering foundations that scale. I've worked across fintech, e-commerce, and AI research, from individual contributor to leading teams.</p>
-    </section>
-
-    <section>
-      <h2>What I Offer</h2>
-      <p><span class="offer-title">Fractional CTO.</span> I work with your team on an ongoing basis. Technical strategy, hiring, architecture, engineering culture.</p>
-      <p><span class="offer-title">Startup Consulting.</span> You have an idea or an early product. I help you make the right technical decisions before they become expensive mistakes.</p>
-      <p><span class="offer-title">Tech Advisory.</span> Occasional calls, code reviews, architecture reviews. Good if you already have a team but need a second opinion.</p>
-    </section>
-
-    <section>
-      <h2>Get in Touch</h2>
-      <div class="contact-links">
-        <a href="mailto:hello@jolo.xyz">hello@jolo.xyz</a>
-        <a href="https://linkedin.com/in/jpbalbin" target="_blank" rel="noopener">linkedin.com/in/jpbalbin</a>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="row">
+          <div class="col side">
+            <h1>Jolo Balbin</h1>
+            <h6>Fractional CTO &amp; Tech Consultant</h6>
+            <ul>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:hello@jolo.xyz">hello@jolo.xyz</a></li>
+              <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/jpbalbin/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><i class="fab fa-github"></i> <a href="https://github.com/mojojolo" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </section>
+      <div class="col content">
+        <h3>What I Do</h3>
+        <p>I help early-stage teams and founders make sound technical decisions, build working software, and establish engineering foundations that scale. I've worked across fintech, e-commerce, and AI research, from individual contributor to leading teams.</p>
 
+        <h3>What I Offer</h3>
+        <p><span class="offer-title">Fractional CTO.</span> I work with your team on an ongoing basis. Technical strategy, hiring, architecture, engineering culture.</p>
+        <p><span class="offer-title">Startup Consulting.</span> You have an idea or an early product. I help you make the right technical decisions before they become expensive mistakes.</p>
+        <p><span class="offer-title">Tech Advisory.</span> Occasional calls, code reviews, architecture reviews. Good if you already have a team but need a second opinion.</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
